@@ -1,0 +1,43 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container
+{
+    display: inline;
+    
+}
+
+.texto
+{
+    margin-left: 2vw;   
+}
+
+.valores
+{
+    width: 350px;
+    margin-left: 2vw;
+}
+
+.operacao
+{
+    margin-left: 2vw;
+}
+
+#recuperar
+{
+    margin-left: 1vw;
+}
+
+#resultado
+{
+    display: inline-flex;
+    border: 1px solid black;
+    margin-left: 8vw;
+    width: 60px;
+    height: 28px;
+    padding-left: 3vw;
+    align-items: center;
+}

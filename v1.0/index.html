@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Calculadora Versão Simples</title>
+</head>
+<body>
+        <div class="container">
+            <label for="input" class="texto">Digite o primeiro número para realizar a operação</label>
+            <br>
+            <input type="number" name="num1" id="num1" class="valores">
+            <br>
+            <label for="input" class="texto">Digite o segundo número para realizar a operação</label>
+            <br>
+            <input type="number" name="num2" id="num2" class="valores">
+            <br> <br>
+            <button type="submit" onclick="mais()" class="operacao">Mais</button>
+            <button type="submit" onclick="menos()" class="operacao">Menos</button>
+            <button type="submit" onclick="multi()" class="operacao">Multiplicação</button>
+            <button type="submit" onclick="div()" class="operacao">Divisão</button>
+            <br> <br>
+            <div id="resultado"></div>
+        </div>
+        <script src="java.js"></script>
+</body>
+</html>
